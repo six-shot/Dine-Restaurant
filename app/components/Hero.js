@@ -20,7 +20,9 @@ export default function Hero() {
               Eat the freshest produce from the comfort of our farmhouse.
             </p>
           </div>
-          <button className="uppercase font-league mt-10 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">book a table</button>
+          <button className="uppercase font-league mt-14 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">
+            book a table
+          </button>
         </div>
       </div>
     </section>
