@@ -11,7 +11,7 @@ export default function Hero() {
           <div>
             <Image src={logo} alt="logo" />
           </div>
-          <div className="px-[4%]">
+          <div className="px-[6%]">
             <h3 className="font-league text-white text-[32px] font-light text-center leading-10 mt-10">
               Exquisite dining <br /> since 1989
             </h3>
