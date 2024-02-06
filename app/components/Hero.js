@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import hero from "@/public/mobilehero.png";
+import hero from "@/public/mobile.png";
 import logo from "@/public/logo mobile.png";
 export default function Hero() {
   return (
