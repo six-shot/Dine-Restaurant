@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import enjoy from "@/public/enjoy.png";
+import locally from "@/public/locally.png";
 import line from "@/public/line.png";
 export default function Enjoy() {
   return (
@@ -15,7 +16,7 @@ export default function Enjoy() {
         </div>
         <div className="flex flex-col justify-center items-center mt-14">
           <Image src={line} alt="enjoying the view" />
-          <h4 className="font-league font-bold text-[28px] text-center leading-[40px] mb-4 mt-8">
+          <h4 className="font-league font-bold text-[30px] text-center leading-[40px] mb-4 mt-8">
             Enjoyable place <br /> for all the family
           </h4>
           <p className="text-center font-league">
@@ -27,14 +28,14 @@ export default function Enjoy() {
       <div className="mb-28">
         <div>
           <Image
-            src={enjoy}
+            src={locally}
             alt="enjoying the view"
             className="w-full shadow-[0_75px_100px_-50px_#38425580]"
           />
         </div>
         <div className="flex flex-col justify-center items-center mt-14">
           <Image src={line} alt="enjoying the view" />
-          <h4 className="font-league font-bold text-[28px] text-center leading-[40px] mb-4 mt-8">
+          <h4 className="font-league font-bold text-[30px] text-center leading-[40px] mb-4 mt-8">
             The most locally <br /> sourced food
           </h4>
           <p className="text-center font-league">
