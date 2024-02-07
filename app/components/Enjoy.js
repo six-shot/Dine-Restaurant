@@ -6,7 +6,7 @@ import line from "@/public/line.png";
 import enjoyhero from "@/public/enjoyhero.png";
 export default function Enjoy() {
   return (
-    <section className="">
+    <section className=" sm:pl-[14.2%] pl-0 ">
       <div className="sm:hidden flex">
         <div className="px-[6%]  -mt-[20%]">
           <div className="mb-28">
@@ -53,23 +53,19 @@ export default function Enjoy() {
       </div>
       <div className="sm:flex hidden">
         <div className="grid grid-cols-12 w-full py-[10%]">
-          <div className="col-span-8 bg-[#f2f3f5] w-full h-[320px] rounded-tr-[100px] relative">
+          <div className="col-span-7 bg-[#f2f3f5] w-full h-[320px] rounded-tr-[100px] relative">
             <Image
               src={enjoyhero}
               alt="enjoying the view"
-              className="absolute left-[20%] -mt-[30%] shadow-[0_75px_100px_-50px_#38425580]"
+              className=" -mt-[30%] shadow-[0_75px_100px_-50px_#38425580]"
             />
           </div>
-          <div className="col-span-4 w-full relative -top-[20%] -left-[10%]">
-            <Image
-              src={line}
-              alt="enjoying the view"
-           
-            />
+          <div className="col-span-5 w-full relative -top-[22%] -left-[12%]">
+            <Image src={line} alt="enjoying the view" />
             <h4 className="font-league font-bold text-[48px]  leading-[48px] text-[#242B37] mb-4 mt-14">
               Enjoyable place <br /> for all the family
             </h4>
-            <p className=" font-league text-[#242B37] text-[20px] w-[445px]">
+            <p className=" font-league text-[#242B37] font-normal text-[20px] w-[445px]">
               Our relaxed surroundings make dining with us a great experience
               for everyone. We can even arrange a tour of the farm before your
               meal.

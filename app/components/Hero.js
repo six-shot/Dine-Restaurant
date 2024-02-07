@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import hero from "@/public/mobile.png";
+import heror from "@/public/heror.png";
 import herobig from "@/public/herobig.png";
 import Logo from "./logo";
 export default function Hero() {
@@ -30,12 +31,32 @@ export default function Hero() {
       </div>
 
       <div className="sm:flex hidden">
-        <div className="w-full h-[95vh]   bg-[#111111]">
-          <div className="grid grid-cols-12">
-            <div className="col-span-4 relative left-[35%] mt-[10%] w-full h-full">
-              <div>
+        <div
+          className="w-full h-[95vh]   bg-[#111111]"
+          style={{
+            // use the src property of the image object
+            backgroundImage: `url(${heror.src})`,
+            // other styles
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            width: "100%",
+            height: "95vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "column",
+          }}
+        >
+          {" "}
+          <div className="  w-full h-full">
+            <div className="pl-[14.2%] ">
+              <div className="mb-[13%] mt-[5%]">
+                {" "}
                 <Logo />
-                <h3 className="font-league text-white text-[70px] font-light  leading-[80px] mt-[30%]">
+              </div>
+              <div>
+                <h3 className="font-league text-white text-[70px] font-light  leading-[70px]">
                   Exquisite dining <br /> since 1989
                 </h3>
                 <p className="font-league text-white text-[20px] w-[445px] font-normal leading-[26px] mt-5 ">
@@ -47,13 +68,6 @@ export default function Hero() {
                   book a table
                 </button>
               </div>
-            </div>
-            <div className="col-span-8">
-              <Image
-                src={herobig}
-                className="w-full h-[95vh] object-cover"
-                alt="heroboig"
-              />
             </div>
           </div>
         </div>
