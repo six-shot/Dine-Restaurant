@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import hero from "@/public/mobile.png";
 import logo from "@/public/logo mobile.png";
+import Logo from "./logo";
 export default function Hero() {
   return (
     <section className="">
@@ -9,7 +10,7 @@ export default function Hero() {
         <Image src={hero} alt="hero" className="w-full " />
         <div className="flex flex-col w-full items-center justify-center my-5">
           <div>
-            <Image src={logo} alt="logo" />
+          <Logo/>
           </div>
           <div className="px-[6%]">
             <h3 className="font-league text-white text-[32px] font-light text-center leading-10 mt-10">
