@@ -1,5 +1,6 @@
 import React from "react";
 import foot from "@/public/foot.png";
+import Logo from "./logo";
 
 export default function Footer() {
   return (
@@ -27,6 +28,49 @@ export default function Footer() {
           <button className="uppercase font-league mt-1 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">
             book a table
           </button>
+        </div>
+      </div>
+      <div className="bg-[#111111] py-20 flex justify-center  flex-col items-center">
+        <Logo />
+        <div className="flex  items-center gap-3 flex-col mt-10">
+          <h5
+            className="
+        font-league text-white uppercase text-sm tracking-[2px]"
+          >
+            Marthwaite, Sedbergh
+          </h5>
+          <h5
+            className="
+         font-league text-white uppercase text-sm tracking-[2px]"
+          >
+            Cumbria
+          </h5>
+          <h5
+            className="
+            font-league text-white uppercase text-sm tracking-[2px]"
+          >
+            +00 44 123 4567
+          </h5>
+        </div>
+        <div className="flex  items-center gap-3 flex-col mt-10">
+          <h5
+            className="
+         font-league text-white uppercase text-sm tracking-[2px]"
+          >
+            OPEN TIMES
+          </h5>
+          <h5
+            className="
+     font-league text-white uppercase text-sm tracking-[2px]"
+          >
+            MON - FRI: 09:00 AM - 10:00 PM
+          </h5>
+          <h5
+            className="
+          font-league text-white uppercase text-sm tracking-[2px]"
+          >
+            SAT - SUN: 09:00 AM - 11:30 PM
+          </h5>
         </div>
       </div>
     </section>
