@@ -3,6 +3,7 @@ import Image from "next/image";
 import enjoy from "@/public/enjoy.png";
 import locally from "@/public/locally.png";
 import line from "@/public/line.png";
+import enjoyhero from "@/public/enjoyhero.png";
 export default function Enjoy() {
   return (
     <section className="">
@@ -51,8 +52,29 @@ export default function Enjoy() {
         </div>
       </div>
       <div className="sm:flex hidden">
-        <div className="flex">
-          <div className="w-[895px] h-[320px] bg-[#5C6779]">yyyyyy</div>
+        <div className="grid grid-cols-12 w-full py-[10%]">
+          <div className="col-span-8 bg-[#f2f3f5] w-full h-[320px] rounded-tr-[100px] relative">
+            <Image
+              src={enjoyhero}
+              alt="enjoying the view"
+              className="absolute left-[20%] -mt-[30%]"
+            />
+          </div>
+          <div className="col-span-4 w-full relative -top-[20%] -left-[10%]">
+            <Image
+              src={line}
+              alt="enjoying the view"
+              className="w-full shadow-[0_75px_100px_-50px_#38425580]"
+            />
+            <h4 className="font-league font-bold text-[48px]  leading-[48px] text-[#242B37] mb-4 mt-14">
+              Enjoyable place <br /> for all the family
+            </h4>
+            <p className=" font-league text-[#242B37] text-[20px] w-[445px]">
+              Our relaxed surroundings make dining with us a great experience
+              for everyone. We can even arrange a tour of the farm before your
+              meal.
+            </p>
+          </div>
         </div>
       </div>
     </section>
