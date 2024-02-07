@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import line from "@/public/line.png";
 import fillet from "@/public/fillet.png";
+import migron from "@/public/mignon.png";
+import mousse from "@/public/mousse.jpeg";
 export default function Highlight() {
   return (
     <section className="bg-[#111111] pt-5 text-white">
@@ -16,8 +18,35 @@ export default function Highlight() {
         </p>
       </div>
       <div className="px-[6%]">
-        <div>
+        <div className="border-b-[1px] border-[rgba(255,255,255,0.14)]">
           <Image src={fillet} className="w-full" alt="enjoying the view" />
+          <h4 className="font-league font-bold text-[22px] text-center leading-[40px] mb-2 mt-8">
+            Seared Salmon Fillet
+          </h4>
+          <p className="text-center font-league pb-12">
+            Our locally sourced salmon served with a refreshing buckwheat summer
+            salad.
+          </p>
+        </div>
+        <div className="border-b-[1px] border-[rgba(255,255,255,0.14)] pt-[8%]">
+          <Image src={migron} className="w-full" alt="enjoying the view" />
+          <h4 className="font-league font-bold text-[22px] text-center leading-[40px] mb-2 mt-8">
+            Rosemary Filet Migno
+          </h4>
+          <p className="text-center font-league pb-12">
+            Our prime beef served to your taste with a delicious choice of
+            seasonal sides.
+          </p>
+        </div>
+        <div className="border-b-[1px] border-[rgba(255,255,255,0.14)] pt-[8%]">
+          <Image src={mousse} className="w-full" alt="enjoying the view" />
+          <h4 className="font-league font-bold text-[22px] text-center leading-[40px] mb-2 mt-8">
+            Summer Fruit Chocolate Mousse
+          </h4>
+          <p className="text-center font-league pb-12">
+            Creamy mousse combined with summer fruits and dark chocolate
+            shavings.
+          </p>
         </div>
       </div>
     </section>
