@@ -50,7 +50,7 @@ export default function Hero() {
         >
           {" "}
           <div className="  w-full h-full">
-            <div className="pl-[14.2%] ">
+            <div className="pl-[11.5%] ">
               <div className="mb-[13%] mt-[5%]">
                 {" "}
                 <Logo />

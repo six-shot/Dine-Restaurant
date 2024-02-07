@@ -6,7 +6,7 @@ import line from "@/public/line.png";
 import enjoyhero from "@/public/enjoyhero.png";
 export default function Enjoy() {
   return (
-    <section className=" sm:pl-[14.2%] pl-0 ">
+    <section className=" sm:pl-[11.5%] pl-0 ">
       <div className="sm:hidden flex">
         <div className="px-[6%]  -mt-[20%]">
           <div className="mb-28">
