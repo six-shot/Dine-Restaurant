@@ -57,14 +57,14 @@ export default function Enjoy() {
             <Image
               src={enjoyhero}
               alt="enjoying the view"
-              className="absolute left-[20%] -mt-[30%]"
+              className="absolute left-[20%] -mt-[30%] shadow-[0_75px_100px_-50px_#38425580]"
             />
           </div>
           <div className="col-span-4 w-full relative -top-[20%] -left-[10%]">
             <Image
               src={line}
               alt="enjoying the view"
-              className="w-full shadow-[0_75px_100px_-50px_#38425580]"
+           
             />
             <h4 className="font-league font-bold text-[48px]  leading-[48px] text-[#242B37] mb-4 mt-14">
               Enjoyable place <br /> for all the family
