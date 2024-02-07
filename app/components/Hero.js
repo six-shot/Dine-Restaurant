@@ -5,7 +5,7 @@ import herobig from "@/public/herobig.png";
 import Logo from "./logo";
 export default function Hero() {
   return (
-    <section>
+    <section className="h-screen">
       <div className="sm:hidden flex">
         <div className="w-full h-screen bg-[#111111]  ">
           <Image src={hero} alt="hero" className="w-full " />

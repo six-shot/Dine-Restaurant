@@ -5,7 +5,7 @@ import Event from "./components/Event";
 import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <main>
+    <main className="max-w-[1440px] mx-auto">
       <Hero/>
       <Enjoy/>
       <Highlight/>

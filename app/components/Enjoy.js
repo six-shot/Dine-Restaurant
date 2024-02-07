@@ -50,6 +50,11 @@ export default function Enjoy() {
           </div>
         </div>
       </div>
+      <div className="sm:flex hidden">
+        <div className="flex">
+          <div className="w-[895px] h-[320px] bg-[#5C6779]">yyyyyy</div>
+        </div>
+      </div>
     </section>
   );
 }
