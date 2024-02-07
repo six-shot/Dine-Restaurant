@@ -5,7 +5,7 @@ import Logo from "./logo";
 export default function Footer() {
   return (
     <section>
-      <div className="">
+      <div className="sm:hidden flex">
         <div
           style={{
             // use the src property of the image object
@@ -30,7 +30,7 @@ export default function Footer() {
           </button>
         </div>
       </div>
-      <div className="bg-[#111111] py-20 flex justify-center  flex-col items-center">
+      <div className="bg-[#111111] sm:hidden py-20 flex justify-center  flex-col items-center">
         <Logo />
         <div className="flex  items-center gap-3 flex-col mt-10">
           <h5

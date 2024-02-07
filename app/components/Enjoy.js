@@ -5,7 +5,7 @@ import locally from "@/public/locally.png";
 import line from "@/public/line.png";
 export default function Enjoy() {
   return (
-    <section className="px-[6%] -mt-[20%]">
+    <section className="px-[6%] sm:hidden flex -mt-[20%]">
       <div className="mb-28">
         <div>
           <Image

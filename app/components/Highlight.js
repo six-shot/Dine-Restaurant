@@ -6,7 +6,7 @@ import migron from "@/public/mignon.png";
 import mousse from "@/public/mousse.jpeg";
 export default function Highlight() {
   return (
-    <section className="bg-[#111111] pt-5 pb-12 text-white">
+    <section className="bg-[#111111] pt-5 pb-12 text-white sm:hidden flex">
       <div className="flex flex-col justify-center items-center mt-14 px-[6%]">
         <Image src={line} alt="enjoying the view" />
         <h4 className="font-league font-bold text-[30px] text-center leading-[40px] mb-4 mt-8">

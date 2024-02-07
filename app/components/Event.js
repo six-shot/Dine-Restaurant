@@ -4,7 +4,7 @@ import family from "@/public/family.png";
 export default function Event() {
   return (
     <section>
-      <div className="px-[6%] py-20">
+      <div className="sm:hidden flex px-[6%] py-20">
         <Image
           src={family}
           alt="family"
