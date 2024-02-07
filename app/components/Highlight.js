@@ -6,7 +6,7 @@ import migron from "@/public/mignon.png";
 import mousse from "@/public/mousse.jpeg";
 export default function Highlight() {
   return (
-    <section className="bg-[#111111] pt-5 text-white">
+    <section className="bg-[#111111] pt-5 pb-12 text-white">
       <div className="flex flex-col justify-center items-center mt-14 px-[6%]">
         <Image src={line} alt="enjoying the view" />
         <h4 className="font-league font-bold text-[30px] text-center leading-[40px] mb-4 mt-8">
@@ -38,7 +38,7 @@ export default function Highlight() {
             seasonal sides.
           </p>
         </div>
-        <div className="border-b-[1px] border-[rgba(255,255,255,0.14)] pt-[8%]">
+        <div className="pt-[8%]">
           <Image src={mousse} className="w-full" alt="enjoying the view" />
           <h4 className="font-league font-bold text-[22px] text-center leading-[40px] mb-2 mt-8">
             Summer Fruit Chocolate Mousse
