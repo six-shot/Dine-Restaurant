@@ -50,11 +50,7 @@ export default function Hero() {
         >
           {" "}
           <div className="  w-full h-full">
-            <div className="pl-[11.5%] ">
-              <div className="mb-[13%] mt-[4%]">
-                {" "}
-                <Logo />
-              </div>
+            <div className="flex items-center h-[95vh] pl-[11.5%] ">
               <div>
                 <h3 className="font-league text-white text-[70px] font-light  leading-[70px]">
                   Exquisite dining <br /> since 1989
