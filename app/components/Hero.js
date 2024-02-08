@@ -51,7 +51,7 @@ export default function Hero() {
           {" "}
           <div className="  w-full h-full">
             <div className="pl-[11.5%] ">
-              <div className="mb-[13%] mt-[5%]">
+              <div className="mb-[13%] mt-[4%]">
                 {" "}
                 <Logo />
               </div>
@@ -64,7 +64,7 @@ export default function Hero() {
                   surroundings. Eat the freshest produce from the comfort of our
                   farmhouse.
                 </p>
-                <button className="uppercase font-league my-8 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">
+                <button className="uppercase font-league mt-8 mb-12 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">
                   book a table
                 </button>
               </div>
