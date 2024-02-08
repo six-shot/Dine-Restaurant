@@ -4,6 +4,7 @@ import enjoy from "@/public/enjoy.png";
 import locally from "@/public/locally.png";
 import line from "@/public/line.png";
 import enjoyhero from "@/public/enjoyhero.png";
+import enjoy2 from "@/public/enjoy2.png";
 export default function Enjoy() {
   return (
     <section className=" sm:pl-[11.5%] pl-0 ">
@@ -72,11 +73,11 @@ export default function Enjoy() {
             </p>
           </div>
         </div>
-        
-        <div className="grid grid-cols-12 w-full py-[30%] pr-[11.5%]">
+
+        <div className="grid grid-cols-12 w-full pt-[30%] pb-[14%] pr-[11.5%]">
           <div className="col-span-7 order-last grid justify-end bg-[#f2f3f5] w-full h-[320px] rounded-tl-[100px] relative">
             <Image
-              src={enjoyhero}
+              src={enjoy2}
               alt="enjoying the view"
               className=" -mt-[30%] shadow-[0_75px_100px_-50px_#38425580]"
             />

@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import line from "@/public/line.png";
 import fillet from "@/public/fillet.png";
+import salmon1 from "@/public/salmon1.png";
 import migron from "@/public/mignon.png";
 import mousse from "@/public/mousse.jpeg";
 export default function Highlight() {
@@ -49,6 +50,83 @@ export default function Highlight() {
                 Creamy mousse combined with summer fruits and dark chocolate
                 shavings.
               </p>
+            </div>
+          </div>
+        </div>{" "}
+      </div>
+      <div className="sm:flex hidden">
+        <div className="bg-[#111111] py-[10%] w-full">
+          <div className="px-[11.5%] flex  justify-between">
+            <div className="flex flex-col flex-1">
+              {" "}
+              <Image src={line} alt="enjoying the view" />
+              <h4 className="font-league font-bold text-[48px]  leading-[48px] text-white mb-4 mt-14">
+                Enjoyable place <br /> for all the family
+              </h4>
+              <p className=" font-league text-white font-normal text-[20px] w-[445px]">
+                Our relaxed surroundings make dining with us a great experience
+                for everyone. We can even arrange a tour of the farm before your
+                meal.
+              </p>
+            </div>
+            <div className="flex flex-1 flex-col">
+              <div className="flex items-center border-b-[1px] pb-6 border-[rgba(255,255,255,0.14)] mt-14 gap-12">
+                <div className="w-[20%]">
+                  <Image
+                    src={fillet}
+                    className="w-full"
+                    alt="enjoying the view"
+                  />
+                </div>
+
+                <div className="flex flex-col">
+                  <h4 className="font-league font-bold text-[20px] text-white">
+                    Seared Salmon Fillet
+                  </h4>
+                  <p className="text-white font-league w-[350px]">
+                    Our locally sourced salmon served with a refreshing
+                    buckwheat summer salad.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center border-b-[1px] pb-6 pt-6 border-[rgba(255,255,255,0.14)]  gap-12">
+                <div className="w-[20%]">
+                  <Image
+                    src={migron}
+                    className="w-full"
+                    alt="enjoying the view"
+                  />
+                </div>
+
+                <div className="flex flex-col">
+                  <h4 className="font-league font-bold text-[20px] text-white">
+                    Seared Salmon Fillet
+                  </h4>
+                  <p className="text-white font-league w-[350px]">
+                    Our locally sourced salmon served with a refreshing
+                    buckwheat summer salad.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center   pt-6  gap-12">
+                <div className="w-[20%]">
+                  <Image
+                    src={mousse}
+                    className="w-full"
+                    alt="enjoying the view"
+                  />
+                </div>
+
+                <div className="flex flex-col">
+                  <h4 className="font-league font-bold text-[20px] text-white">
+                    Seared Salmon Fillet
+                  </h4>
+                  <p className="text-white font-league w-[350px]">
+                    Our locally sourced salmon served with a refreshing
+                    buckwheat summer salad.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
