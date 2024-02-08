@@ -42,15 +42,13 @@ export default function Hero() {
             backgroundRepeat: "no-repeat",
             width: "100%",
             height: "95vh",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            flexDirection: "column",
           }}
         >
-          {" "}
+          <div className="pl-[11.5%] mt-[3%] ">
+            <Logo />
+          </div>
           <div className="  w-full h-full">
-            <div className="flex items-center h-[95vh] pl-[11.5%] ">
+            <div className="flex items-center h-[80vh] pl-[11.5%] ">
               <div>
                 <h3 className="font-league text-white text-[70px] font-light  leading-[70px]">
                   Exquisite dining <br /> since 1989
