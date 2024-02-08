@@ -7,7 +7,7 @@ import Logo from "./logo";
 export default function Hero() {
   return (
     <section className="h-screen">
-      <div className="sm:hidden flex">
+      <div className="lg:hidden flex">
         <div className="w-full h-screen bg-[#111111]  ">
           <Image src={hero} alt="hero" className="w-full " />
           <div className="flex flex-col w-full items-center justify-center my-5">
@@ -15,12 +15,14 @@ export default function Hero() {
               <Logo />
             </div>
             <div className="px-[6%]">
-              <h3 className="font-league text-white text-[32px] font-light text-center leading-10 mt-10">
+              <h3 className="font-league text-white md:text-[48px] text-[32px] font-light text-center md:leading-[64px] leading-10 mt-10">
                 Exquisite dining <br /> since 1989
               </h3>
               <p className="font-league text-white text-base font-normal leading-[26px] mt-5 text-center">
                 Experience our seasonal menu in beautiful country surroundings.
-                Eat the freshest produce from the comfort of our farmhouse.
+                Eat
+                <br className="md:flex hidden" /> the freshest produce from the
+                comfort of our farmhouse.
               </p>
             </div>
             <button className="uppercase font-league mt-14 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">
@@ -30,7 +32,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="sm:flex hidden">
+      <div className="lg:flex hidden">
         <div
           className="w-full h-[95vh]   bg-[#111111]"
           style={{

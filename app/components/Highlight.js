@@ -8,7 +8,7 @@ import mousse from "@/public/mousse.jpeg";
 export default function Highlight() {
   return (
     <section className="">
-      <div className="sm:hidden flex">
+      <div className="md:hidden flex">
         <div className="bg-[#111111] pt-5 pb-12 text-white">
           <div className="flex flex-col justify-center items-center mt-14 px-[6%]">
             <Image src={line} alt="enjoying the view" />
@@ -54,9 +54,9 @@ export default function Highlight() {
           </div>
         </div>{" "}
       </div>
-      <div className="sm:flex hidden">
+      <div className="md:flex hidden">
         <div className="bg-[#111111] py-[10%] w-full">
-          <div className="px-[11.5%] flex  justify-between">
+          <div className="px-[11.5%] flex lg:flex-row md:flex-col justify-between">
             <div className="flex flex-col flex-1">
               {" "}
               <Image src={line} alt="enjoying the view" />
@@ -71,7 +71,7 @@ export default function Highlight() {
             </div>
             <div className="flex flex-1 flex-col">
               <div className="flex items-center border-b-[1px] pb-6 border-[rgba(255,255,255,0.14)] mt-14 gap-12">
-                <div className="w-[20%]">
+                <div className="lg:w-[20%] w-[30%]">
                   <Image
                     src={fillet}
                     className="w-full"
@@ -90,7 +90,7 @@ export default function Highlight() {
                 </div>
               </div>
               <div className="flex items-center border-b-[1px] pb-6 pt-6 border-[rgba(255,255,255,0.14)]  gap-12">
-                <div className="w-[20%]">
+                <div className="lg:w-[20%] w-[30%]">
                   <Image
                     src={migron}
                     className="w-full"
@@ -109,7 +109,7 @@ export default function Highlight() {
                 </div>
               </div>
               <div className="flex items-center   pt-6  gap-12">
-                <div className="w-[20%]">
+                <div className="lg:w-[20%] w-[30%]">
                   <Image
                     src={mousse}
                     className="w-full"

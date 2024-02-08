@@ -5,8 +5,8 @@ import family1 from "@/public/family1.png";
 export default function Event() {
   return (
     <section>
-      <div className="sm:hidden flex">
-        <div className=" px-[6%] py-20">
+      <div className="lg:hidden flex">
+        <div className=" px-[6%] md:px-[10%] py-20">
           <Image
             src={family}
             alt="family"
@@ -27,9 +27,9 @@ export default function Event() {
           </div>
         </div>
       </div>
-      <div className="sm:flex hidden">
+      <div className="lg:flex hidden">
         <div className=" py-[10%] w-full">
-          <div className="px-[11.5%] flex gap-24  justify-between">
+          <div className="lg:px-[11.5%]  flex gap-24 lg:flex-row flex-col justify-between">
             <div className="flex flex-col flex-1">
               <Image
                 src={family1}

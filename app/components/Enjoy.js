@@ -1,29 +1,36 @@
 import React from "react";
 import Image from "next/image";
 import enjoy from "@/public/enjoy.png";
+import enjoytab from "@/public/enjoytab.png";
 import locally from "@/public/locally.png";
+import localtab from "@/public/localtab.png";
 import line from "@/public/line.png";
 import enjoyhero from "@/public/enjoyhero.png";
 import enjoy2 from "@/public/enjoy2.png";
 export default function Enjoy() {
   return (
-    <section className=" sm:pl-[11.5%] pl-0 ">
-      <div className="sm:hidden flex">
-        <div className="px-[6%]  -mt-[20%]">
+    <section className=" lg:pl-[11.5%] pl-0 ">
+      <div className="lg:hidden flex">
+        <div className="px-[6%] md:px-[10%]  -mt-[20%]">
           <div className="mb-28">
             <div>
               <Image
                 src={enjoy}
                 alt="enjoying the view"
-                className="w-full shadow-[0_75px_100px_-50px_#38425580]"
+                className="w-full md:hidden flex shadow-[0_75px_100px_-50px_#38425580]"
+              />
+              <Image
+                src={enjoytab}
+                alt="enjoying the view"
+                className="w-full md:flex hidden shadow-[0_75px_100px_-50px_#38425580]"
               />
             </div>
             <div className="flex flex-col justify-center items-center mt-14">
               <Image src={line} alt="enjoying the view" />
-              <h4 className="font-league font-bold text-[30px] text-center leading-[40px] mb-4 mt-8">
+              <h4 className="font-league font-bold text-[30px] md:text-[48px] text-center leading-[40px] md:leading-[48px] mb-4 mt-8">
                 Enjoyable place <br /> for all the family
               </h4>
-              <p className="text-center font-league">
+              <p className="text-center text-base md:text-[20px] font-league">
                 Our relaxed surroundings make dining with us a great experience
                 for everyone. We can even arrange a tour of the farm before your
                 meal.
@@ -35,15 +42,20 @@ export default function Enjoy() {
               <Image
                 src={locally}
                 alt="enjoying the view"
-                className="w-full shadow-[0_75px_100px_-50px_#38425580]"
+                className="w-full md:hidden flex shadow-[0_75px_100px_-50px_#38425580]"
+              />
+              <Image
+                src={localtab}
+                alt="enjoying the view"
+                className="w-full md:flex hidden shadow-[0_75px_100px_-50px_#38425580]"
               />
             </div>
             <div className="flex flex-col justify-center items-center mt-14">
               <Image src={line} alt="enjoying the view" />
-              <h4 className="font-league font-bold text-[30px] text-center leading-[40px] mb-4 mt-8">
+              <h4 className="font-league font-bold text-[30px] md:text-[48px] text-center leading-[40px] mb-4 mt-8">
                 The most locally <br /> sourced food
               </h4>
-              <p className="text-center font-league">
+              <p className="text-center text-base md:text-[20px] font-league">
                 All our ingredients come directly from our farm or local
                 fishery. So you can be sure that you’re eating the freshest,
                 most sustainable food.
@@ -52,7 +64,7 @@ export default function Enjoy() {
           </div>
         </div>
       </div>
-      <div className="sm:flex flex-col hidden">
+      <div className="lg:flex flex-col hidden">
         <div className="grid grid-cols-12 w-full py-[10%]">
           <div className="col-span-7 bg-[#f2f3f5] w-full h-[320px] rounded-tr-[100px] relative">
             <Image

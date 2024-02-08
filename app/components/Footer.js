@@ -5,7 +5,7 @@ import Logo from "./logo";
 export default function Footer() {
   return (
     <section>
-      <div className="sm:hidden flex">
+      <div className="md:hidden flex">
         <div
           style={{
             // use the src property of the image object
@@ -70,7 +70,7 @@ export default function Footer() {
           </h5>
         </div>
       </div>
-      <div className="sm:flex hidden">
+      <div className="md:flex hidden">
         <div
           style={{
             // use the src property of the image object
@@ -83,7 +83,7 @@ export default function Footer() {
             height: "240px",
           }}
         >
-          <div className="flex justify-between items-center h-[240px] px-[11.5%] ">
+          <div className="flex justify-between lg:flex-row flex-col items-center h-[240px] px-[11.5%] ">
             <h4 className="font-league font-bold text-[48px] text-center text-white mb-2 mt-8">
               Ready to make a reservation?
             </h4>
