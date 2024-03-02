@@ -4,7 +4,7 @@ import Logo from "./logo";
 
 export default function Footer() {
   return (
-    <section>
+    <section className="w-full bg-[#111111]">
       <div className="md:hidden flex">
         <div
           style={{
@@ -70,6 +70,7 @@ export default function Footer() {
           </h5>
         </div>
       </div>
+
       <div className="md:flex hidden">
         <div
           style={{
@@ -83,54 +84,60 @@ export default function Footer() {
             height: "240px",
           }}
         >
-          <div className="flex justify-between lg:flex-row flex-col items-center h-[240px] px-[11.5%] ">
-            <h4 className="font-league font-bold text-[48px] text-center text-white mb-2 mt-8">
-              Ready to make a reservation?
-            </h4>
-            <button className="uppercase font-league mt-1 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">
-              book a table
-            </button>
+          <div className="max-w-[1440px] mx-auto">
+            <div className="flex justify-between lg:flex-row flex-col items-center h-[240px] px-[11.5%] ">
+              <h4 className="font-league font-bold text-[48px] text-center text-white mb-2 mt-8">
+                Ready to make a reservation?
+              </h4>
+              <button className="uppercase font-league mt-1 w-[245px] h-[60px] flex justify-center items-center border border-white text-white font-semibold text-base tracking-[2.5px]">
+                book a table
+              </button>
+            </div>
           </div>
-          <div className="bg-[#111111] flex justify-between  py-14 px-[11.5%] items-center">
-            <div className="">
-              <Logo />
-            </div>
-            <div className="flex   gap-3 flex-col mt-10">
-              <h5
-                className="
+          <div className="w-full bg-[#111111]">
+            <div className="max-w-[1440px] mx-auto">
+              <div className="bg-[#111111] flex justify-between  py-14 px-[11.5%] items-center">
+                <div className="">
+                  <Logo />
+                </div>
+                <div className="flex   gap-3 flex-col mt-10">
+                  <h5
+                    className="
         font-league text-white uppercase text-sm tracking-[2px]"
-              >
-                Marthwaite, Sedbergh
-              </h5>
-              <h5
-                className="
+                  >
+                    Marthwaite, Sedbergh
+                  </h5>
+                  <h5
+                    className="
          font-league text-white uppercase text-sm tracking-[2px]"
-              >
-                Cumbria
-              </h5>
-              <h5
-                className="
+                  >
+                    Cumbria
+                  </h5>
+                  <h5
+                    className="
             font-league text-white uppercase text-sm tracking-[2px]"
-              >
-                +00 44 123 4567
-              </h5>
-            </div>
-            <div className="flex   gap-3 flex-col mt-10">
-              <h5
-                className="
+                  >
+                    +00 44 123 4567
+                  </h5>
+                </div>
+                <div className="flex   gap-3 flex-col mt-10">
+                  <h5
+                    className="
          font-league text-white uppercase text-sm tracking-[2px]"
-              >
-                OPEN TIMES
-              </h5>
-              <h5 className="font-league text-white uppercase text-sm tracking-[2px]">
-                MON - FRI: 09:00 AM - 10:00 PM
-              </h5>
-              <h5
-                className="
+                  >
+                    OPEN TIMES
+                  </h5>
+                  <h5 className="font-league text-white uppercase text-sm tracking-[2px]">
+                    MON - FRI: 09:00 AM - 10:00 PM
+                  </h5>
+                  <h5
+                    className="
           font-league text-white uppercase text-sm tracking-[2px]"
-              >
-                SAT - SUN: 09:00 AM - 11:30 PM
-              </h5>
+                  >
+                    SAT - SUN: 09:00 AM - 11:30 PM
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
